@@ -1,0 +1,112 @@
+:root{
+    --primario: #03223f;
+    --secundario:#010d23;
+    --terciario:#32678a;
+    --cuaternario:#60869e;
+    --quinario:#0d6759;
+}
+
+h1 {
+    font-size: 8rem;
+    color: var(--secundario);
+    text-align: center;
+
+}
+body{
+    font-size: 16px;
+
+}
+
+.contaha2{
+    font: size 4rem;
+    color: var(--quinario);
+}
+
+.fernanH2{
+    font-size: 4rem;
+    color: var(--terciario);
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+   
+    
+  }
+  
+  li {
+    float: center;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    
+    width: 700%;
+    height: 50px;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+   
+  }
+  nav {
+
+    background-color: #e1eeee ;
+  }
+  div{
+      border: 0px solid rgb(248, 245, 245);
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  section{
+      text-align: center;
+  }
+  main{
+    text-align: center;
+}
+body{
+    background-color: white;
+}
+main{
+    text-align: center;
+    background-color:#e6ecf0  ;
+}
+div{
+    text-align: center;
+    background-color:rgb(253, 250, 250)  ;
+}
+.lateral{
+    box-sizing: border-box;
+    width: 19%;
+    margin-top: 0%;
+    display: inline-block;
+    position: absolute;
+    height: 555%;
+    padding-top: 100%;
+    background:#04A86B ;
+    }
+.principal{
+    margin-left: 19%;
+    margin-top: 0%;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 60%;
+    text-align: justify;
+    background:white;
+    }
+.lateral-derecha{
+        box-sizing: border-box;
+        width: 19%;
+        margin-top: 0%;
+        position: absolute;
+        height: 555%;
+        padding-top: 100%;
+        background:#04A86B;
+        display: inline-block;
+        }
